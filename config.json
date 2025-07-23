@@ -1,0 +1,26 @@
+{
+  "labels": {
+    "dotpi-dev-012": "012",
+    "dotpi-dev-014": "014",
+    "dotpi-dev-021": "021",
+    "dotpi-dev-035": "035",
+    "dotpi-dev-053": "053",
+    "dotpi-dev-056": "056",
+    "dotpi-dev-023": "023",
+    "dotpi-dev-071": "071",
+  },
+  "presets": {
+    "audio-player:period": 0.1,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 0.25,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0,
+    "feedback-delay:directSound": 1,
+    "feedback-delay:preGain": 0,
+    "feedback-delay:delayTime": 0.1,
+    "feedback-delay:feedback": 0.5,
+    "feedback-delay:filterFrequency": 12000
+  },
+  "introFile": "audio-files/intro/intro.wav"
+}

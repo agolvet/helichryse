@@ -1,0 +1,90 @@
+{
+  "dotpi-helichryse-023": {
+    "soundfile": "/audio-files/synth/pas papier lent.wav",
+    "applyFx": false,
+    "mix:volume": 6.424,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.098,
+    "audio-player:duration": 0.715,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-024": {
+    "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
+    "applyFx": false,
+    "mix:volume": 5.03,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.243,
+    "audio-player:duration": 0.648,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-063": {
+    "soundfile": "/audio-files/synth/pas papier.wav",
+    "applyFx": false,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.195,
+    "audio-player:duration": 0.505,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-011": {
+    "soundfile": null,
+    "applyFx": false,
+    "mix:volume": 0,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.1,
+    "audio-player:duration": 0.25,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-062": {
+    "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
+    "applyFx": false,
+    "mix:volume": 4.566,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.372,
+    "audio-player:duration": 0.631,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-054": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": false,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.114,
+    "audio-player:duration": 0.748,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-076": {
+    "soundfile": "/audio-files/synth/pas papier.wav",
+    "applyFx": false,
+    "mix:volume": 6.889,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.163,
+    "audio-player:duration": 0.69,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-010": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": false,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.211,
+    "audio-player:duration": 0.614,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "dotpi-helichryse-023": {
+    "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
+    "applyFx": true,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.156,
+    "audio-player:duration": 1.018,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 142.373
+  },
+  "dotpi-helichryse-010": {
+    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
+    "applyFx": true,
+    "mix:volume": 9.677,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.156,
+    "audio-player:duration": 1.018,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 101.695
+  },
+  "dotpi-helichryse-062": {
+    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
+    "applyFx": true,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.156,
+    "audio-player:duration": 1.018,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 142.373
+  },
+  "dotpi-helichryse-076": {
+    "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
+    "applyFx": true,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.156,
+    "audio-player:duration": 1.018,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 111.864
+  },
+  "dotpi-helichryse-024": {
+    "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
+    "applyFx": true,
+    "mix:volume": 7.354,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.156,
+    "audio-player:duration": 1.018,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 101.695
+  },
+  "dotpi-helichryse-054": {
+    "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
+    "applyFx": true,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.156,
+    "audio-player:duration": 1.018,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 162.712
+  },
+  "dotpi-helichryse-063": {
+    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
+    "applyFx": true,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.156,
+    "audio-player:duration": 1.018,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 132.203
+  }
+}

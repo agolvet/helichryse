@@ -1,0 +1,8 @@
+name: helichryse
+author: ""
+clients:
+  thing:
+    runtime: node
+  controller:
+    runtime: browser
+    default: true

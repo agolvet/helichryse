@@ -1,0 +1,79 @@
+{
+  "dotpi-helichryse-062": {
+    "soundfile": "/audio-files/synth/Elena.wav",
+    "applyFx": false,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.098,
+    "audio-player:duration": 1.119,
+    "audio-player:detune": -467.797,
+    "audio-player:detuneVar": 620.339
+  },
+  "dotpi-helichryse-054": {
+    "soundfile": "/audio-files/synth/Por1.wav",
+    "applyFx": false,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.098,
+    "audio-player:duration": 1.119,
+    "audio-player:detune": 630.508,
+    "audio-player:detuneVar": 630.508
+  },
+  "dotpi-helichryse-023": {
+    "soundfile": "/audio-files/synth/Alex.wav",
+    "applyFx": false,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.1,
+    "audio-player:duration": 1.194,
+    "audio-player:detune": 366.102,
+    "audio-player:detuneVar": 447.458
+  },
+  "dotpi-helichryse-076": {
+    "soundfile": "/audio-files/synth/Por3.wav",
+    "applyFx": false,
+    "mix:volume": 7.818,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.098,
+    "audio-player:duration": 1.119,
+    "audio-player:detune": 467.797,
+    "audio-player:detuneVar": 569.492
+  },
+  "dotpi-helichryse-063": {
+    "soundfile": "/audio-files/synth/Por2.wav",
+    "applyFx": false,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.098,
+    "audio-player:duration": 1.119,
+    "audio-player:detune": 874.576,
+    "audio-player:detuneVar": 559.322
+  },
+  "dotpi-helichryse-024": {
+    "soundfile": "/audio-files/synth/Ekayerina.wav",
+    "applyFx": false,
+    "mix:volume": 7.818,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.098,
+    "audio-player:duration": 1.119,
+    "audio-player:detune": 772.881,
+    "audio-player:detuneVar": 579.661
+  },
+  "dotpi-helichryse-010": {
+    "soundfile": "/audio-files/synth/Simone.wav",
+    "applyFx": false,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.098,
+    "audio-player:duration": 1.119,
+    "audio-player:detune": -691.525,
+    "audio-player:detuneVar": 528.814
+  }
+}

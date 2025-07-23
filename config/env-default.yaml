@@ -1,0 +1,12 @@
+type: development
+port: 8000
+baseUrl: ""
+serverAddress: 10.10.0.1
+useHttps: false
+httpsInfos:
+  cert: null
+  key: null
+auth:
+  clients: []
+  login: ""
+  password: ""

@@ -1,0 +1,79 @@
+{
+  "dotpi-helichryse-054": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": true,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.412,
+    "audio-player:duration": 0.673,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-063": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": true,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.332,
+    "audio-player:duration": 0.589,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-062": {
+    "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
+    "applyFx": false,
+    "mix:volume": -80,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.372,
+    "audio-player:duration": 0.631,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-076": {
+    "soundfile": "/audio-files/synth/pas papier.wav",
+    "applyFx": true,
+    "mix:volume": 6.889,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.501,
+    "audio-player:duration": 0.488,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-024": {
+    "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
+    "applyFx": false,
+    "mix:volume": -80,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.243,
+    "audio-player:duration": 0.648,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-010": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": true,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.372,
+    "audio-player:duration": 0.455,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-023": {
+    "soundfile": "/audio-files/synth/pas papier lent.wav",
+    "applyFx": true,
+    "mix:volume": 6.424,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.364,
+    "audio-player:duration": 0.388,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  }
+}

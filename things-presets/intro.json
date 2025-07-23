@@ -1,0 +1,79 @@
+{
+  "dotpi-helichryse-023": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": false,
+    "mix:volume": 0.848,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.637,
+    "audio-player:duration": 0.94,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-024": {
+    "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
+    "applyFx": false,
+    "mix:volume": 3.172,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 1.644,
+    "audio-player:duration": 2.336,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-063": {
+    "soundfile": "/audio-files/synth/pas papier.wav",
+    "applyFx": false,
+    "mix:volume": 1.313,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.763,
+    "audio-player:duration": 1.236,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-062": {
+    "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
+    "applyFx": false,
+    "mix:volume": 2.707,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 1.812,
+    "audio-player:duration": 2.336,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-054": {
+    "soundfile": "/audio-files/synth/pas papier lent.wav",
+    "applyFx": false,
+    "mix:volume": 1.313,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 1.015,
+    "audio-player:duration": 1.617,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-076": {
+    "soundfile": "/audio-files/synth/pas papier.wav",
+    "applyFx": false,
+    "mix:volume": 1.778,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.931,
+    "audio-player:duration": 1.321,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-helichryse-010": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": false,
+    "mix:volume": 1.778,
+    "mix:mute": false,
+    "audio-player:control": "stop",
+    "audio-player:period": 0.469,
+    "audio-player:duration": 0.813,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  }
+}
