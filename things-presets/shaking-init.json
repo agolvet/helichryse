@@ -1,62 +1,9 @@
 {
-  "dotpi-dev-053": {
-    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
-    "applyFx": true,
-    "mix:volume": 8.283,
-    "mix:mute": false,
-    "audio-player:control": "stop",
-    "audio-player:period": 0.156,
-    "audio-player:periodVar": 0,
-    "audio-player:duration": 1.018,
-    "audio-player:durationVar": 0,
-    "audio-player:detune": 0,
-    "audio-player:detuneVar": 132.203
-  },
-  "dotpi-dev-056": {
-    "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
-    "applyFx": true,
-    "mix:volume": 7.354,
-    "mix:mute": false,
-    "audio-player:control": "stop",
-    "audio-player:period": 0.156,
-    "audio-player:periodVar": 0,
-    "audio-player:duration": 1.018,
-    "audio-player:durationVar": 0,
-    "audio-player:detune": 0,
-    "audio-player:detuneVar": 101.695
-  },
-  "dotpi-dev-071": {
-    "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
-    "applyFx": true,
-    "mix:volume": 6.424,
-    "mix:mute": false,
-    "audio-player:control": "stop",
-    "audio-player:period": 0.1,
-    "audio-player:periodVar": 0,
-    "audio-player:duration": 0.25,
-    "audio-player:durationVar": 0,
-    "audio-player:detune": 0,
-    "audio-player:detuneVar": 0
-  },
-  "dotpi-dev-023": {
-    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
-    "applyFx": true,
-    "mix:volume": 9.677,
-    "mix:mute": false,
-    "audio-player:control": "stop",
-    "audio-player:period": 0.156,
-    "audio-player:periodVar": 0,
-    "audio-player:duration": 1.018,
-    "audio-player:durationVar": 0,
-    "audio-player:detune": 0,
-    "audio-player:detuneVar": 101.695
-  },
   "dotpi-dev-035": {
     "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
     "applyFx": true,
     "mix:volume": 8.747,
     "mix:mute": false,
-    "audio-player:control": "stop",
     "audio-player:period": 0.156,
     "audio-player:periodVar": 0,
     "audio-player:duration": 1.018,
@@ -64,30 +11,88 @@
     "audio-player:detune": 0,
     "audio-player:detuneVar": 111.864
   },
-  "dotpi-dev-012": {
-    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
+  "dotpi-dev-071": {
+    "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
     "applyFx": true,
     "mix:volume": 8.747,
     "mix:mute": false,
-    "audio-player:control": "stop",
     "audio-player:period": 0.156,
     "audio-player:periodVar": 0,
-    "audio-player:duration": 1.018,
+    "audio-player:duration": 1.067,
     "audio-player:durationVar": 0,
     "audio-player:detune": 0,
-    "audio-player:detuneVar": 142.373
+    "audio-player:detuneVar": 101.695
   },
   "dotpi-dev-014": {
     "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
     "applyFx": true,
     "mix:volume": 8.283,
     "mix:mute": false,
-    "audio-player:control": "stop",
     "audio-player:period": 0.156,
     "audio-player:periodVar": 0,
     "audio-player:duration": 1.018,
     "audio-player:durationVar": 0,
     "audio-player:detune": 0,
     "audio-player:detuneVar": 162.712
+  },
+  "dotpi-dev-023": {
+    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
+    "applyFx": true,
+    "mix:volume": 9.677,
+    "mix:mute": false,
+    "audio-player:period": 0.156,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.018,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 101.695
+  },
+  "dotpi-dev-053": {
+    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
+    "applyFx": true,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:period": 0.156,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.018,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 132.203
+  },
+  "dotpi-dev-021": {
+    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
+    "applyFx": true,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:period": 0.176,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.025,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 101.695
+  },
+  "dotpi-dev-056": {
+    "soundfile": "/audio-files/synth/Texture verre (octaviante).wav",
+    "applyFx": true,
+    "mix:volume": 7.354,
+    "mix:mute": false,
+    "audio-player:period": 0.156,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.018,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 101.695
+  },
+  "dotpi-dev-012": {
+    "soundfile": "/audio-files/synth/Texture verre (old tpe).wav",
+    "applyFx": true,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:period": 0.156,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.018,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 142.373
   }
 }

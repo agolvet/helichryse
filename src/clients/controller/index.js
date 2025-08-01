@@ -258,13 +258,25 @@ async function main($container) {
                 }}
               ></sc-toggle>
             </div>
-            <div style="padding-top: 10px; margin-top: 10px; border-top: 1px solid #454545">
+            <div style="padding-top: 10px;">
               <sc-text style="width: 120px;">spat</sc-text>
               <sc-toggle
                 id="global-audio-player-apply-spat"
                 midi-mode="latch"
+                ?active=${global.get('spatActive')}
                 @change=${e => {
                   global.set('spatActive', e.detail.value)
+                }}
+              ></sc-toggle>
+            </div>
+            <div style="padding-top: 10px;">
+              <sc-text style="width: 120px;">riotDelayControl</sc-text>
+              <sc-toggle
+                id="global-audio-player-apply-riot-delay-control"
+                midi-mode="latch"
+                ?active=${global.get('riotDelayControl')}
+                @change=${e => {
+                  global.set('riotDelayControl', e.detail.value)
                 }}
               ></sc-toggle>
             </div>

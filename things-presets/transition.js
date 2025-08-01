@@ -1,17 +1,26 @@
 import { getTime, delay } from '@ircam/sc-utils';
 
 let timeoutId;
+const totalDuration = 120 // en secondes
+const fadeOutDuration = 30;
 
 export async function enter(global, things, filesystem) {
   global.set('activeThingsPreset', 'transition');
 }
 export function exit(global, things, filesystem) {
+  clearAutomation(global, things, filesystem);
+}
+
+export function clearAutomation(global, things, filesystem) {
   clearTimeout(timeoutId);
+  global.set({ 'clearAutomation': true });
 }
 
 export async function execute(global, things, filesystem) {
-  clearTimeout(timeoutId);
+  clearAutomation(global, things, filesystem);
   console.log('hello transition')
+  things.set({ 'audio-player:control': 'start' });
+  timeoutId = setTimeout(() => global.set({ setAutomation: fadeOut }), (totalDuration - fadeOutDuration) * 1000);
 
   // ramp from -80 to 0
   // const startTime = getTime();
@@ -35,4 +44,56 @@ export async function execute(global, things, filesystem) {
   // }
 
   // fade();
+}
+
+const fadeOut = {
+  'duration': fadeOutDuration,
+  'dotpi-dev-035': [
+    {
+      param: "mix:volume",
+      value: -80,
+    },
+  ],
+  'dotpi-dev-071': [
+    {
+      param: "mix:volume",
+      value: -80,
+    },
+  ],
+  'dotpi-dev-014': [
+    {
+      param: "mix:volume",
+      value: -80,
+    },
+  ],
+  'dotpi-dev-053': [
+    {
+      param: "mix:volume",
+      value: -80,
+    },
+  ],
+  'dotpi-dev-023': [
+    {
+      param: "mix:volume",
+      value: -80,
+    },
+  ],
+  'dotpi-dev-021': [
+    {
+      param: "mix:volume",
+      value: -80,
+    },
+  ],
+  'dotpi-dev-056': [
+    {
+      param: "mix:volume",
+      value: -80,
+    },
+  ],
+  'dotpi-dev-012': [
+    {
+      param: "mix:volume",
+      value: -80,
+    },
+  ]
 }

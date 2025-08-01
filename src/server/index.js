@@ -131,7 +131,9 @@ oscServer.on('message', msg => {
   }
   if (msg[0] === "/mag3") {
     // global.set({riotVerticalAxis: msg[1]});
-    global.set({"feedback-delay:preGain": msg[1]});
+    if (global.get("riotDelayControl")) {
+      global.set({"feedback-delay:preGain": msg[1]});
+    }
   }
 });
 

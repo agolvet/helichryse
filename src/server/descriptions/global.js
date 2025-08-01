@@ -78,9 +78,12 @@ export default {
     default: null,
     nullable: true,
   },
+  riotDelayControl: {
+    type: 'boolean',
+    default: true,
+  },
   riotVerticalAxis: {
     type: 'float',
     default: 0,
   }
-
 };

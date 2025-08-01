@@ -1,6 +1,8 @@
 import { getTime, delay } from '@ircam/sc-utils';
 
 const totalDuration = 480 // en secondes, doit etre superieur à 240 (4 minutes);
+const fadeOutDuration = 30;
+
 
 let timeoutIds = [];
 
@@ -14,7 +16,6 @@ export function exit(global, things, filesystem) {
 
 export function clearAutomation(global, things, filesystem) {
   timeoutIds.forEach(timeoutId => clearTimeout(timeoutId));
-  console.log('hello clear');
   global.set({'clearAutomation': true});
 }
 
@@ -24,7 +25,7 @@ export async function execute(global, things, filesystem) {
   things.set({ 'audio-player:control': 'start' });
 
   let timeoutId;
-  timeoutId = setTimeout(() => global.set({ setAutomation: automation1 }), 1*1000);
+  timeoutId = setTimeout(() => global.set({ setAutomation: automation1 }), 60*1000);
   timeoutIds.push(timeoutId);
 
   timeoutId = setTimeout(() => global.set({ setAutomation: automation2 }), 180 * 1000);
@@ -34,7 +35,7 @@ export async function execute(global, things, filesystem) {
   timeoutId = setTimeout(() => global.set({ setAutomation: automation4 }), 240 * 1000);
   timeoutIds.push(timeoutId);
 
-  timeoutId = setTimeout(() => global.set({ setAutomation: automation5 }), (totalDuration-30) * 1000);
+  timeoutId = setTimeout(() => global.set({ setAutomation: fadeOut }), (totalDuration-fadeOutDuration) * 1000);
   timeoutIds.push(timeoutId);
 
   // global.set({setAutomation: automation1});
@@ -300,8 +301,8 @@ const automation4 = {
   ],
 }
 
-const automation5 = {
-  'duration': 30,
+const fadeOut = {
+  'duration': fadeOutDuration,
   'dotpi-dev-035': [
     {
       param: "mix:volume",

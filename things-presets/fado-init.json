@@ -1,79 +1,98 @@
 {
-  "dotpi-dev-012": {
-    "soundfile": "/audio-files/synth/Elena.wav",
-    "applyFx": false,
-    "mix:volume": 8.747,
-    "mix:mute": false,
-    "audio-player:control": "stop",
-    "audio-player:period": 0.098,
-    "audio-player:duration": 1.119,
-    "audio-player:detune": -467.797,
-    "audio-player:detuneVar": 620.339
-  },
   "dotpi-dev-014": {
     "soundfile": "/audio-files/synth/Por1.wav",
     "applyFx": false,
     "mix:volume": 8.747,
     "mix:mute": false,
-    "audio-player:control": "stop",
     "audio-player:period": 0.098,
+    "audio-player:periodVar": 0,
     "audio-player:duration": 1.119,
+    "audio-player:durationVar": 0,
     "audio-player:detune": 630.508,
-    "audio-player:detuneVar": 630.508
-  },
-  "dotpi-dev-021": {
-    "soundfile": "/audio-files/synth/Alex.wav",
-    "applyFx": false,
-    "mix:volume": 8.283,
-    "mix:mute": false,
-    "audio-player:control": "stop",
-    "audio-player:period": 0.1,
-    "audio-player:duration": 1.194,
-    "audio-player:detune": 366.102,
-    "audio-player:detuneVar": 447.458
-  },
-  "dotpi-dev-035": {
-    "soundfile": "/audio-files/synth/Por3.wav",
-    "applyFx": false,
-    "mix:volume": 7.818,
-    "mix:mute": false,
-    "audio-player:control": "stop",
-    "audio-player:period": 0.098,
-    "audio-player:duration": 1.119,
-    "audio-player:detune": 467.797,
-    "audio-player:detuneVar": 569.492
+    "audio-player:detuneVar": 101.695
   },
   "dotpi-dev-053": {
     "soundfile": "/audio-files/synth/Por2.wav",
     "applyFx": false,
     "mix:volume": 8.283,
     "mix:mute": false,
-    "audio-player:control": "stop",
     "audio-player:period": 0.098,
+    "audio-player:periodVar": 0,
     "audio-player:duration": 1.119,
+    "audio-player:durationVar": 0,
     "audio-player:detune": 874.576,
-    "audio-player:detuneVar": 559.322
+    "audio-player:detuneVar": 111.864
   },
-  "dotpi-dev-056": {
-    "soundfile": "/audio-files/synth/Ekayerina.wav",
+  "dotpi-dev-071": {
+    "soundfile": "/audio-files/synth/Por1.wav",
+    "applyFx": false,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:period": 0.1,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.109,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": -325.424,
+    "audio-player:detuneVar": 122.034
+  },
+  "dotpi-dev-035": {
+    "soundfile": "/audio-files/synth/Por3.wav",
     "applyFx": false,
     "mix:volume": 7.818,
     "mix:mute": false,
-    "audio-player:control": "stop",
     "audio-player:period": 0.098,
+    "audio-player:periodVar": 0,
     "audio-player:duration": 1.119,
-    "audio-player:detune": 772.881,
-    "audio-player:detuneVar": 579.661
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 467.797,
+    "audio-player:detuneVar": 111.864
+  },
+  "dotpi-dev-021": {
+    "soundfile": "/audio-files/synth/Alex.wav",
+    "applyFx": false,
+    "mix:volume": 8.283,
+    "mix:mute": false,
+    "audio-player:period": 0.1,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.194,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 366.102,
+    "audio-player:detuneVar": 111.864
   },
   "dotpi-dev-023": {
     "soundfile": "/audio-files/synth/Simone.wav",
     "applyFx": false,
     "mix:volume": 8.747,
     "mix:mute": false,
-    "audio-player:control": "stop",
     "audio-player:period": 0.098,
+    "audio-player:periodVar": 0,
     "audio-player:duration": 1.119,
+    "audio-player:durationVar": 0,
     "audio-player:detune": -691.525,
-    "audio-player:detuneVar": 528.814
+    "audio-player:detuneVar": 111.864
+  },
+  "dotpi-dev-012": {
+    "soundfile": "/audio-files/synth/Elena.wav",
+    "applyFx": false,
+    "mix:volume": 8.747,
+    "mix:mute": false,
+    "audio-player:period": 0.098,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.119,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": -467.797,
+    "audio-player:detuneVar": 132.203
+  },
+  "dotpi-dev-056": {
+    "soundfile": "/audio-files/synth/Ekayerina.wav",
+    "applyFx": false,
+    "mix:volume": 7.818,
+    "mix:mute": false,
+    "audio-player:period": 0.098,
+    "audio-player:periodVar": 0,
+    "audio-player:duration": 1.119,
+    "audio-player:durationVar": 0,
+    "audio-player:detune": 772.881,
+    "audio-player:detuneVar": 132.203
   }
 }
