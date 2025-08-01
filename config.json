@@ -1,13 +1,13 @@
 {
   "labels": {
-    "dotpi-dev-012": "012",
-    "dotpi-dev-014": "014",
-    "dotpi-dev-021": "021",
     "dotpi-dev-035": "035",
-    "dotpi-dev-053": "053",
-    "dotpi-dev-056": "056",
-    "dotpi-dev-023": "023",
     "dotpi-dev-071": "071",
+    "dotpi-dev-014": "014",
+    "dotpi-dev-053": "053",
+    "dotpi-dev-023": "023",
+    "dotpi-dev-021": "021",
+    "dotpi-dev-056": "056",
+    "dotpi-dev-012": "012",
   },
   "presets": {
     "audio-player:period": 0.1,

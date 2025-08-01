@@ -60,4 +60,27 @@ export default {
     type: 'any',
     default: {},
   },
+  setAutomation: {
+    type: 'any',
+    event: true,
+  },
+  clearAutomation: {
+    type: 'boolean',
+    event: true,
+  },
+  //riot things
+  spatActive: {
+    type: 'boolean',
+    default: false,
+  },
+  orientationLikelihoods: {
+    type: 'any',
+    default: null,
+    nullable: true,
+  },
+  riotVerticalAxis: {
+    type: 'float',
+    default: 0,
+  }
+
 };

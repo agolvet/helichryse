@@ -16,7 +16,7 @@ import { AudioBufferLoader } from '@ircam/sc-loader';
 import { decibelToLinear } from '@ircam/sc-utils';
 
 import Led from './Led.js';
-import { glob } from 'node:fs';
+
 
 
 // - General documentation: https://soundworks.dev/
@@ -76,24 +76,26 @@ async function bootstrap() {
   const global = await client.stateManager.attach('global');
 
   const mixing = await client.pluginManager.get('mixing');
-  const checkin =await client.pluginManager.get('checkin');
+  const checkin = await client.pluginManager.get('checkin');
 
   // set thing label according to hostname
   const labels = global.get('labels');
   const hostname = os.hostname();
   let isEmulated;
+  let index;
 
   if (hostname in labels) {
     isEmulated = false;
 
     const label = labels[hostname];
+    index = Object.keys(labels).indexOf(hostname);
     thing.set({ label, hostname });
     mixing.trackState.set({ label });
   } else {
     isEmulated = true;
     // DEV mode
     const hostnames = Object.keys(labels);
-    const index = checkin.getIndex();
+    index = checkin.getIndex();
     const hostname = hostnames[index];
     const label = labels[hostname];
 
@@ -131,6 +133,26 @@ async function bootstrap() {
 
   const triggerGains = new Map();
 
+  const timeoutIds = [];
+
+  function automateValue(param, startValue, endValue, startTime, endTime, index) {
+    const now = audioContext.currentTime;
+    const update = {};
+    if (now >= endTime) {
+      update[param] = endValue;
+      thing.set(update);
+      return;
+    }
+    update[param] = startValue + (endValue - startValue) * (now - startTime) / (endTime - startTime);
+    thing.set(update); 
+    const timeoutId = setTimeout(() => automateValue(param, startValue, endValue, startTime, endTime), 100);
+    if (timeoutIds[index]) {
+      timeoutIds[index] = timeoutId;
+    } else {
+      timeoutIds.push(timeoutId);
+    }
+  }
+
   global.onUpdate(updates => {
     const now = audioContext.currentTime;
     if ('ledBaseColor' in updates) {
@@ -142,6 +164,42 @@ async function bootstrap() {
     if ('volume' in updates) {
       mix.volume.setTargetAtTime(updates.volume, now, 0.05); 
     }
+    if ('setAutomation' in updates) {
+      const duration = updates.setAutomation['duration'];
+      const thingAutomation = updates.setAutomation[thing.get('hostname')];
+      if (thingAutomation) {
+        for (let i = 0; i < thingAutomation.length; i++) {
+          const auto = thingAutomation[i];
+          if (auto["param"] === 'soundfile') {
+            thing.set({
+              'audio-player:control': 'stop',
+              'soundfile': auto['value'],
+            });
+            setTimeout(() => thing.set({'audio-player:control': 'start'}), 300);
+          } else {
+            const startValue = thing.get(auto["param"]);
+            const endValue = auto["value"];
+            const startTime = audioContext.currentTime;
+            const endTime = audioContext.currentTime + duration;
+            automateValue(auto["param"], startValue, endValue, startTime, endTime, i);
+          }
+        }
+      }
+    }
+    if ('clearAutomation' in updates) {
+      timeoutIds.forEach(timeoutId => clearTimeout(timeoutId));
+    }
+    if ('orientationLikelihoods' in updates) {
+      if (global.get('spatActive')) {
+        const lkhd = updates.orientationLikelihoods[index];
+        if (lkhd) {
+          mix.volume.setTargetAtTime(-80 + (thing.get("mix:volume") +80)*lkhd, now, 0.05); 
+        }
+      }
+    }
+    // if ('riotVerticalAxis' in updates) {
+    //   feedbackDelay.feedback(updates.riotVerticalAxis)
+    // }
   }, true);
 
   thing.onUpdate(async updates => {

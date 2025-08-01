@@ -1,7 +1,7 @@
 type: development
 port: 8000
 baseUrl: ""
-serverAddress: 10.10.0.1
+serverAddress: 127.0.0.1
 useHttps: false
 httpsInfos:
   cert: null

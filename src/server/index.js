@@ -5,14 +5,21 @@ import JSON5 from 'json5';
 import '@soundworks/helpers/polyfills.js';
 import { Server } from '@soundworks/core/server.js';
 import { loadConfig, configureHttpRouter } from '@soundworks/helpers/server.js';
+import {
+  Server as OscServer,
+  Client as OscClient,
+} from 'node-osc';
+
 import ServerPluginFilesystem from '@soundworks/plugin-filesystem/server.js';
 import ServerPluginPlatformInit from '@soundworks/plugin-platform-init/server.js';
 import ServerPluginSync from '@soundworks/plugin-sync/server.js';
 import ServerPluginMixing from '@soundworks/plugin-mixing/server.js';
 import ServerPluginCheckin from '@soundworks/plugin-checkin/server.js';
+import ServerPluginScripting from '@soundworks/plugin-scripting/server.js';
 
 import thingDescription from './descriptions/thing.js';
 import globalDescription from './descriptions/global.js';
+import controllerDefinition from './descriptions/controller.js';
 
 import dbMapper from './dbMapper.js';
 
@@ -57,6 +64,9 @@ server.pluginManager.register('intro-filesystem', ServerPluginFilesystem, {
   publicPath: 'audio-files/intro',
 });
 server.pluginManager.register('things-presets', ServerPluginFilesystem, {
+  dirname: 'things-presets',
+});
+server.pluginManager.register('scripting', ServerPluginScripting, {
   dirname: 'things-presets',
 });
 server.pluginManager.register('sync', ServerPluginSync);
@@ -104,6 +114,27 @@ const global = await server.stateManager.create('global', { labels, introFile })
 server.stateManager.defineClass('thing', thingDescription);
 const things = await server.stateManager.getCollection('thing');
 
+server.stateManager.defineClass('controller', controllerDefinition);
+
+const oscServer = new OscServer(3333, '0.0.0.0', () => {
+  console.log('OSC Server is listening');
+});
+
+oscServer.on('message', msg => {
+  // console.log('hello max', msg);
+  if (msg[0] === "list") {
+    const orientationLikelihoods = msg.slice(1);
+    const maxLk = Math.max(...orientationLikelihoods);
+    orientationLikelihoods.map(x => x/maxLk);
+    // console.log(likelihoods);
+    global.set({orientationLikelihoods});  
+  }
+  if (msg[0] === "/mag3") {
+    // global.set({riotVerticalAxis: msg[1]});
+    global.set({"feedback-delay:preGain": msg[1]});
+  }
+});
+
 // use defaults defined in presets
 function applyGlobalPreset() {
   const thingDescription = things.getDescription();
@@ -132,6 +163,10 @@ global.set('thingsPresetList', dbMapper.getThingsPresetList());
 global.onUpdate(async updates => {
   for (let [name, value] of Object.entries(updates)) {
     switch (name) {
+      case 'message': {
+        console.log(value)
+        break;
+      }
       case 'reset': {
         applyGlobalPreset();
         break;

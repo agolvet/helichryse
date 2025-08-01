@@ -1,0 +1,98 @@
+{
+  "dotpi-dev-056": {
+    "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
+    "applyFx": false,
+    "mix:volume": 3,
+    "mix:mute": false,
+    "audio-player:period": 1.518,
+    "audio-player:periodVar": 0.322,
+    "audio-player:duration": 1.194,
+    "audio-player:durationVar": 0.712,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-dev-023": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": false,
+    "mix:volume": 3,
+    "mix:mute": false,
+    "audio-player:period": 1.099,
+    "audio-player:periodVar": 0.288,
+    "audio-player:duration": 0.433,
+    "audio-player:durationVar": 0.203,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-dev-012": {
+    "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
+    "applyFx": false,
+    "mix:volume": 3,
+    "mix:mute": false,
+    "audio-player:period": 1.644,
+    "audio-player:periodVar": 0.322,
+    "audio-player:duration": 1.236,
+    "audio-player:durationVar": 0.78,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-dev-035": {
+    "soundfile": "/audio-files/synth/pas papier.wav",
+    "applyFx": false,
+    "mix:volume": 3,
+    "mix:mute": false,
+    "audio-player:period": 1.141,
+    "audio-player:periodVar": 0.305,
+    "audio-player:duration": 0.348,
+    "audio-player:durationVar": 0.288,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-dev-014": {
+    "soundfile": "/audio-files/synth/pas papier lent.wav",
+    "applyFx": false,
+    "mix:volume": 3,
+    "mix:mute": false,
+    "audio-player:period": 1.35,
+    "audio-player:periodVar": 0.186,
+    "audio-player:duration": 0.348,
+    "audio-player:durationVar": 0.305,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-dev-071": {
+    "soundfile": "/audio-files/synth/pas papier lent.wav",
+    "applyFx": false,
+    "mix:volume": 3,
+    "mix:mute": false,
+    "audio-player:period": 1.35,
+    "audio-player:periodVar": 0.203,
+    "audio-player:duration": 0.56,
+    "audio-player:durationVar": 0.288,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-dev-053": {
+    "soundfile": "/audio-files/synth/pas papier.wav",
+    "applyFx": false,
+    "mix:volume": 3,
+    "mix:mute": false,
+    "audio-player:period": 1.183,
+    "audio-player:periodVar": 0.237,
+    "audio-player:duration": 0.433,
+    "audio-player:durationVar": 0.237,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  },
+  "dotpi-dev-021": {
+    "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
+    "applyFx": false,
+    "mix:volume": 3,
+    "mix:mute": false,
+    "audio-player:period": 1.267,
+    "audio-player:periodVar": 0.271,
+    "audio-player:duration": 0.517,
+    "audio-player:durationVar": 0.237,
+    "audio-player:detune": 0,
+    "audio-player:detuneVar": 0
+  }
+}

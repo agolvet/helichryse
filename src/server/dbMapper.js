@@ -11,11 +11,17 @@ export default {
       'applyFx',
       'mix:volume',
       'mix:mute',
-      'audio-player:control',
       'audio-player:period',
+      'audio-player:periodVar',
       'audio-player:duration',
+      'audio-player:durationVar',
       'audio-player:detune',
       'audio-player:detuneVar',
+      'feedback-delay:directSound',
+      'feedback-delay:preGain',
+      'feedback-delay:delayTime',
+      'feedback-delay:feedback',
+      'feedback-delay:filterFrequency',
     ]
 
     things.forEach(thing => {
@@ -27,15 +33,16 @@ export default {
       }, {});
     });
 
-    await this.filesystem.writeFile(`${presetName}.json`, JSON.stringify(data, null, 2));
+    await this.filesystem.writeFile(`${presetName}-init.json`, JSON.stringify(data, null, 2));
   },
 
   async deleteThingsPreset(presetName) {
-    await this.filesystem.rm(`${presetName}.json`);
+    await this.filesystem.rm(`${presetName}.js`);
+    await this.filesystem.rm(`${presetName}-init.json`);
   },
 
   async loadThingsPreset(presetName, things) {
-    const blob = await this.filesystem.readFile(`${presetName}.json`);
+    const blob = await this.filesystem.readFile(`${presetName}-init.json`);
     const txt = await blob.text();
     const data = JSON.parse(txt);
 
@@ -54,7 +61,8 @@ export default {
   getThingsPresetList() {
     const files = this.filesystem.getTree()
       .children
-      .map(node => node.name.replace(/\.json$/, ''));
+      .filter(node => node.name.includes("js") && !node.name.includes("json"))
+      .map(node => node.name.replace(/\.js$/, ''));
 
     return files;
   },

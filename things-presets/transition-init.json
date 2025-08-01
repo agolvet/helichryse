@@ -1,5 +1,5 @@
 {
-  "dotpi-helichryse-054": {
+  "dotpi-dev-014": {
     "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
     "applyFx": true,
     "mix:volume": 8.283,
@@ -10,7 +10,7 @@
     "audio-player:detune": 0,
     "audio-player:detuneVar": 0
   },
-  "dotpi-helichryse-063": {
+  "dotpi-dev-053": {
     "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
     "applyFx": true,
     "mix:volume": 8.747,
@@ -21,7 +21,7 @@
     "audio-player:detune": 0,
     "audio-player:detuneVar": 0
   },
-  "dotpi-helichryse-062": {
+  "dotpi-dev-012": {
     "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
     "applyFx": false,
     "mix:volume": -80,
@@ -32,7 +32,7 @@
     "audio-player:detune": 0,
     "audio-player:detuneVar": 0
   },
-  "dotpi-helichryse-076": {
+  "dotpi-dev-035": {
     "soundfile": "/audio-files/synth/pas papier.wav",
     "applyFx": true,
     "mix:volume": 6.889,
@@ -43,7 +43,7 @@
     "audio-player:detune": 0,
     "audio-player:detuneVar": 0
   },
-  "dotpi-helichryse-024": {
+  "dotpi-dev-056": {
     "soundfile": "/audio-files/synth/BIRDS MONTEMOR.wav",
     "applyFx": false,
     "mix:volume": -80,
@@ -54,7 +54,7 @@
     "audio-player:detune": 0,
     "audio-player:detuneVar": 0
   },
-  "dotpi-helichryse-010": {
+  "dotpi-dev-023": {
     "soundfile": "/audio-files/synth/JUPE FROISSÉE EQ.wav",
     "applyFx": true,
     "mix:volume": 8.283,
@@ -65,7 +65,7 @@
     "audio-player:detune": 0,
     "audio-player:detuneVar": 0
   },
-  "dotpi-helichryse-023": {
+  "dotpi-dev-021": {
     "soundfile": "/audio-files/synth/pas papier lent.wav",
     "applyFx": true,
     "mix:volume": 6.424,

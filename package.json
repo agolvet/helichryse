@@ -29,9 +29,11 @@
     "@soundworks/plugin-filesystem": "^5.0.0",
     "@soundworks/plugin-mixing": "^5.0.0-alpha.0",
     "@soundworks/plugin-platform-init": "^5.0.0",
+    "@soundworks/plugin-scripting": "^5.0.2",
     "@soundworks/plugin-sync": "^5.0.0",
     "json5": "^2.2.3",
     "lit": "^2.2.2",
+    "node-osc": "^9.1.7",
     "node-web-audio-api": "^1.0.1",
     "tempy": "^3.1.0",
     "waves-loaders": "^0.1.6"

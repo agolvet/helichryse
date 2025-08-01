@@ -76,9 +76,11 @@ simple-layout {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 
   .row-1 {
     display: flex;
+    flex-grow: 1;
 
     .col-1 {
       width: 25%;
@@ -148,6 +150,22 @@ simple-layout {
   .thing-controls {
     padding: 6px 0;
     border-bottom: 1px solid #787878;
+  }
+
+  & > section {
+    position: relative;
+    display: flex;
+    // flex-direction:
+    flex-grow: 1;
+
+    // sw-editor {
+    //   position: absolute;
+    //   width: 75%;
+    //   height: 100%;
+    //   z-index: 110;
+    //   top: 0;
+    //   right: 0;
+    // }
   }
 }
 

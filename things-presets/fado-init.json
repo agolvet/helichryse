@@ -1,5 +1,5 @@
 {
-  "dotpi-helichryse-062": {
+  "dotpi-dev-012": {
     "soundfile": "/audio-files/synth/Elena.wav",
     "applyFx": false,
     "mix:volume": 8.747,
@@ -10,7 +10,7 @@
     "audio-player:detune": -467.797,
     "audio-player:detuneVar": 620.339
   },
-  "dotpi-helichryse-054": {
+  "dotpi-dev-014": {
     "soundfile": "/audio-files/synth/Por1.wav",
     "applyFx": false,
     "mix:volume": 8.747,
@@ -21,7 +21,7 @@
     "audio-player:detune": 630.508,
     "audio-player:detuneVar": 630.508
   },
-  "dotpi-helichryse-023": {
+  "dotpi-dev-021": {
     "soundfile": "/audio-files/synth/Alex.wav",
     "applyFx": false,
     "mix:volume": 8.283,
@@ -32,7 +32,7 @@
     "audio-player:detune": 366.102,
     "audio-player:detuneVar": 447.458
   },
-  "dotpi-helichryse-076": {
+  "dotpi-dev-035": {
     "soundfile": "/audio-files/synth/Por3.wav",
     "applyFx": false,
     "mix:volume": 7.818,
@@ -43,7 +43,7 @@
     "audio-player:detune": 467.797,
     "audio-player:detuneVar": 569.492
   },
-  "dotpi-helichryse-063": {
+  "dotpi-dev-053": {
     "soundfile": "/audio-files/synth/Por2.wav",
     "applyFx": false,
     "mix:volume": 8.283,
@@ -54,7 +54,7 @@
     "audio-player:detune": 874.576,
     "audio-player:detuneVar": 559.322
   },
-  "dotpi-helichryse-024": {
+  "dotpi-dev-056": {
     "soundfile": "/audio-files/synth/Ekayerina.wav",
     "applyFx": false,
     "mix:volume": 7.818,
@@ -65,7 +65,7 @@
     "audio-player:detune": 772.881,
     "audio-player:detuneVar": 579.661
   },
-  "dotpi-helichryse-010": {
+  "dotpi-dev-023": {
     "soundfile": "/audio-files/synth/Simone.wav",
     "applyFx": false,
     "mix:volume": 8.747,
